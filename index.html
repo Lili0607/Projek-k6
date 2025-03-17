@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9x9 Multiplayer Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+  <!-- select box -->
+  <div class="select-box">
+    <header>9x9 TIC-TAC-TOE</header>
+    <div class="content">
+      <div class="title">
+        Pemain mana yang akan pergi lebih dulu?
+      </div>
+      <div class="options">
+        <button class="playerX">Player X</button>
+        <button class="playerO">Player O</button>
+      </div>
+      <div class="rules">
+      Dapatkan 5 berturut-turut untuk menang!
+      </div>
+    </div>
+  </div>
+
+  <!-- playboard section -->
+  <div class="play-board">
+   <div class="details">
+     <div class="players">
+       <span class="Xturn">Giliran X</span>
+       <span class="Oturn">Giliran O</span>
+        <div class="slider"></div>
+     </div>
+   </div>
+   <div class="play-area">
+     <!-- Row 1 -->
+     <section>
+       <span class="box1"></span>
+       <span class="box2"></span>
+       <span class="box3"></span>
+       <span class="box4"></span>
+       <span class="box5"></span>
+     </section>
+     <!-- Row 2 -->
+     <section>
+       <span class="box6"></span>
+       <span class="box7"></span>
+       <span class="box8"></span>
+       <span class="box9"></span>
+       <span class="box10"></span>
+      
+     </section>
+     <!-- Row 3 -->
+     <section>
+       <span class="box11"></span>
+       <span class="box12"></span>
+       <span class="box13"></span>
+       <span class="box14"></span>
+       <span class="box15"></span>
+       
+     </section>
+     <!-- Row 4 -->
+     <section>
+       <span class="box16"></span>
+       <span class="box17"></span>
+       <span class="box18"></span>
+       <span class="box19"></span>
+       <span class="box20"></span>
+       
+     </section>
+     <!-- Row 5 -->
+     <section>
+       <span class="box21"></span>
+       <span class="box22"></span>
+       <span class="box23"></span>
+       <span class="box24"></span>
+       <span class="box25"></span>
+       
+     </section>
+     
+   </div>
+  </div>
+
+  <!-- result box -->
+  <div class="result-box">
+    <div class="won-text"></div>
+    <div class="btn"><button>Replay</button></div>
+  </div>
+
+  <script src="ttt.js"></script>
+</body>
+
+</html>
